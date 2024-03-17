@@ -1,3 +1,4 @@
+create database VitalSign_HealthManager;
 use VitalSign_HealthManager;
 
 DROP TABLE IF EXISTS `Patients`;
