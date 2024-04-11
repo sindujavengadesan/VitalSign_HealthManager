@@ -196,14 +196,6 @@ CREATE TABLE `TreatmentPlan` (
   CONSTRAINT C_TreatmentPlan CHECK (Start_Date <= End_Date)
 );
 
-DROP TABLE IF EXISTS `TreatmentPlan_Medication`;
-CREATE TABLE `TreatmentPlan_Medication` (
-  `Tp_Id` varchar(20) NOT NULL,
-  `M_ID` varchar(20) NOT NULL,
-  PRIMARY KEY(Tp_Id, M_ID), 
-  FOREIGN KEY(M_ID) REFERENCES Medication(M_ID),
-  FOREIGN KEY(Tp_Id) REFERENCES TreatmentPlan(Tp_Id)
-);
 
 DROP TABLE IF EXISTS `TreatmentPlan_Doctor`;
 CREATE TABLE `TreatmentPlan_Doctor` (
