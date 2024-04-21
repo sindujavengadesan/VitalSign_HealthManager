@@ -6,7 +6,7 @@ As hospitals develop, the need for a dynamic and flexible data management system
 
 
 **Project Consists of:**
-1) Conceptual Data Modelling 
+1) Conceptual Data Modelling (EER Model and UML Model)
 2) Mapping Conceptual Model to Relational Model 
 3) Implementation of Relational Model: MySQL & NoSQL
 4) Database access via Python 
